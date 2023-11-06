@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/wait"
+        android:icon="@drawable/baseline_access_time_24"
+        android:title="Ожидаемые"/>
+    <item
+        android:id="@+id/rating"
+        android:icon="@drawable/baseline_star_rate_24"
+        android:title="Рейтинг"/>
+</menu>
