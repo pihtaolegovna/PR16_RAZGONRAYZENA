@@ -6,9 +6,6 @@ This Android app allows you to search for and explore movie data using the Kinop
 
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [API Key](#api-key)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
@@ -34,45 +31,6 @@ Follow these instructions to get the app up and running on your local developmen
 3. **Build and Run**
 
    Build the project and run it on your Android emulator or physical device.
-
-## Usage
-
-1. **Search for Movies**
-
-   - Open the app and enter a movie title or keyword in the search bar.
-   - Tap the search button to get a list of movies matching your query.
-
-2. **View Movie Details**
-
-   - Tap on a movie from the search results to see detailed information.
-   - This screen displays the movie's title, description, rating, reviews, and cast.
-   - You can also watch the trailer by clicking the "Watch Trailer" button.
-
-3. **Save to Watchlist**
-
-   - If you like a movie, you can save it to your watchlist by clicking the "Add to Watchlist" button on the movie details screen.
-
-4. **Switch between Dark and Light Mode**
-
-   - The app offers both dark and light mode. You can switch between them by going to the settings in the app.
-
-## API Key
-
-To use this app, you will need to obtain an API key from Kinopoisk. Follow these steps to get your API key:
-
-1. Visit the [Kinopoisk Developer Portal](https://developer.kinopoisk.ru/) and sign up for an account.
-
-2. Create a new project and request an API key for movies.
-
-3. Copy the API key and replace the placeholder in the app's code with your actual key.
-
-   ```java
-   // app/src/main/java/com/yourapp/kinopoisk/ApiService.java
-   public interface ApiService {
-       @GET("movie/search")
-       Call<MovieResponse> searchMovies(@Query("api_key") String apiKey, @Query("query") String query);
-   }
-   ```
 
 ## Contributing
 
