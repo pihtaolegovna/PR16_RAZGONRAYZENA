@@ -5,7 +5,6 @@ This Android app allows you to search for and explore movie data using the Kinop
 ## Table of Contents
 
 - [Features](#features)
-- [Screenshots](#screenshots)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [API Key](#api-key)
